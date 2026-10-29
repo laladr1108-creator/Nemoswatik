@@ -88,23 +88,11 @@ Telegram-сервис прокси-подписок: пробный и плат�
 
 | Проект | Сценарий |
 |---|---|
-| [КБЖУ Coach](https://laladr1108-creator.github.io/portfolio/projects/01-kbju-coach/index.html) | Расчёт нормы, добавление еды и отображение дневного прогресса. |
-| [FluxVPN](https://laladr1108-creator.github.io/portfolio/projects/02-fluxvpn/index.html) | Кабинет с выбором сервера, тарифом, устройствами и состояниями подключения. |
-| [Exclusive Partners](https://laladr1108-creator.github.io/portfolio/projects/03-exclusive-partners/index.html) | Партнёрская CRM: фильтры, статусы и расчёт комиссии. |
-| [Order Bot UI](https://laladr1108-creator.github.io/portfolio/projects/04-telegram-order-bot/index.html) | Интерфейс заказа: меню, корзина и статусы. |
-| [Support Bot UI](https://laladr1108-creator.github.io/portfolio/projects/05-telegram-support-bot/index.html) | Интерфейс обработки обращений: приоритеты и шаблоны ответов. |
-
-## Из открытых проектов rollce
-
-### DialogSpyBot — зеркало сообщений Telegram Business
-
-Архив подключённой бизнес-переписки: сообщения, история изменений, события удаления и медиа. Веб-интерфейс показывает чаты и таймлайн; данные хранятся в PostgreSQL.
-
-**Стек:** Go · PostgreSQL · Docker
-
-**[Исходный проект rollce](https://github.com/rollce/DialogSpyBot)** · [Описание](cases/telegram-mirror.md)
-
-Автор исходного репозитория — **rollce**, друг Андрея. Проект включён в портфолио с разрешения автора. Живая переписка и данные пользователей не демонстрируются.
+| [КБЖУ Coach](https://laladr1108-creator.github.io/Nemoswatik/projects/01-kbju-coach/index.html) | Расчёт нормы, добавление еды и отображение дневного прогресса. |
+| [FluxVPN](https://laladr1108-creator.github.io/Nemoswatik/projects/02-fluxvpn/index.html) | Кабинет с выбором сервера, тарифом, устройствами и состояниями подключения. |
+| [Exclusive Partners](https://laladr1108-creator.github.io/Nemoswatik/projects/03-exclusive-partners/index.html) | Партнёрская CRM: фильтры, статусы и расчёт комиссии. |
+| [Order Bot UI](https://laladr1108-creator.github.io/Nemoswatik/projects/04-telegram-order-bot/index.html) | Интерфейс заказа: меню, корзина и статусы. |
+| [Support Bot UI](https://laladr1108-creator.github.io/Nemoswatik/projects/05-telegram-support-bot/index.html) | Интерфейс обработки обращений: приоритеты и шаблоны ответов. |
 
 ## Связаться
 
