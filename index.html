@@ -1,181 +1,62 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Андрей Swatik11 - портфолио frontend и Telegram-ботов</title>
-    <meta name="description" content="Портфолио Андрея Swatik11: FluxVpn, КБЖУ, Exclusive Partners и Telegram-боты с рабочими интерфейсами.">
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
-    <div class="page-noise" aria-hidden="true"></div>
-
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Наверх">
-        <span>S11</span>
-        <strong>Swatik11</strong>
-      </a>
-      <nav aria-label="Навигация">
-        <a href="#projects">Проекты</a>
-        <a href="#skills">Навыки</a>
-        <a href="#about">Обо мне</a>
-        <a href="#contact">Контакты</a>
-      </nav>
-      <button class="theme-button" id="themeToggle" type="button" aria-label="Сменить тему" aria-pressed="false">
-        <span></span>
-      </button>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="hero-content">
-          <p class="eyebrow">frontend / telegram bots / web ui</p>
-          <h1>Я Андрей. Делаю понятные сайты, кабинеты и Telegram-ботов под реальные задачи.</h1>
-          <p class="hero-text">Я не хочу показывать случайные демки. Ниже - проекты, которые ближе к тому, что я реально могу собрать: FluxVpn, КБЖУ, Exclusive Partners и два Telegram-бота с красивой подачей, логикой и рабочими действиями.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#projects">Смотреть кейсы</a>
-            <a class="button ghost" href="https://t.me/Swatik11" target="_blank" rel="noreferrer">Написать в Telegram</a>
-          </div>
-        </div>
-
-        <div class="hero-media">
-          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80" alt="Рабочий стол с интерфейсом на ноутбуке">
-          <div class="hero-note">
-            <span>сейчас в фокусе</span>
-            <strong>боты, личные кабинеты и аккуратные интерфейсы</strong>
-          </div>
-        </div>
-      </section>
-
-      <section class="intro-row" aria-label="Кратко">
-        <div><span>проектов</span><strong>5</strong></div>
-        <div><span>основа</span><strong>HTML CSS JS</strong></div>
-        <div><span>публикация</span><strong>GitHub + VPS</strong></div>
-        <div><span>связь</span><strong>@Swatik11</strong></div>
-      </section>
-
-      <section class="section-title" id="projects">
-        <p class="eyebrow">проекты</p>
-        <h2>Кейсы с фото, сценарием и рабочим поведением.</h2>
-        <p>Я сделал витрину более честной: не просто блоки с текстом, а проекты с визуальным превью, понятной задачей и кликабельной страницей внутри.</p>
-      </section>
-
-      <section class="case-list" aria-label="Проекты портфолио">
-        <article class="case-item accent-green" tabindex="0">
-          <a class="case-link" href="./projects/01-kbju-coach/index.html" aria-label="Открыть проект КБЖУ Bot"></a>
-          <div class="case-photo">
-            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1000&q=80" alt="Полезная еда и рацион">
-          </div>
-          <div class="case-copy">
-            <span class="case-number">01</span>
-            <h3>КБЖУ Bot</h3>
-            <p>Telegram-бот и мини-интерфейс для питания: расчет нормы, приемы пищи, быстрые продукты и прогресс по калориям.</p>
-            <div class="tags"><span>Telegram bot</span><span>КБЖУ</span><span>расчеты</span></div>
-            <span class="open-label">Открыть проект</span>
-          </div>
-        </article>
-
-        <article class="case-item accent-blue" tabindex="0">
-          <a class="case-link" href="./projects/02-fluxvpn/index.html" aria-label="Открыть проект FluxVpn"></a>
-          <div class="case-photo">
-            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1000&q=80" alt="Серверная стойка для VPN-сервиса">
-          </div>
-          <div class="case-copy">
-            <span class="case-number">02</span>
-            <h3>FluxVpn</h3>
-            <p>Личный кабинет VPN-сервиса: подключение, выбор сервера, тариф, устройства, скорость и статус защиты.</p>
-            <div class="tags"><span>VPN</span><span>кабинет</span><span>состояния</span></div>
-            <span class="open-label">Открыть проект</span>
-          </div>
-        </article>
-
-        <article class="case-item accent-gold" tabindex="0">
-          <a class="case-link" href="./projects/03-exclusive-partners/index.html" aria-label="Открыть проект Exclusive Partners"></a>
-          <div class="case-photo">
-            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80" alt="Партнерская встреча">
-          </div>
-          <div class="case-copy">
-            <span class="case-number">03</span>
-            <h3>Exclusive Partners</h3>
-            <p>Партнерская CRM: статусы клиентов, уровни, фильтры, воронка и расчет комиссии без перегруженного интерфейса.</p>
-            <div class="tags"><span>CRM</span><span>партнеры</span><span>фильтры</span></div>
-            <span class="open-label">Открыть проект</span>
-          </div>
-        </article>
-
-        <article class="case-item accent-violet" tabindex="0">
-          <a class="case-link" href="./projects/04-telegram-order-bot/index.html" aria-label="Открыть проект Telegram Order Bot"></a>
-          <div class="case-photo">
-            <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&w=1000&q=80" alt="Телефон с мобильным интерфейсом">
-          </div>
-          <div class="case-copy">
-            <span class="case-number">04</span>
-            <h3>Telegram Order Bot</h3>
-            <p>Красивый бот для заказов: меню, корзина, статусы заявки, быстрые кнопки и аккуратная логика диалога.</p>
-            <div class="tags"><span>бот</span><span>заказы</span><span>меню</span></div>
-            <span class="open-label">Открыть проект</span>
-          </div>
-        </article>
-
-        <article class="case-item accent-cyan" tabindex="0">
-          <a class="case-link" href="./projects/05-telegram-support-bot/index.html" aria-label="Открыть проект Telegram Support Bot"></a>
-          <div class="case-photo">
-            <img src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?auto=format&fit=crop&w=1000&q=80" alt="Поддержка клиентов и рабочий ноутбук">
-          </div>
-          <div class="case-copy">
-            <span class="case-number">05</span>
-            <h3>Telegram Support Bot</h3>
-            <p>Бот поддержки: заявки, приоритеты, шаблоны ответов, SLA и понятная панель для обработки сообщений.</p>
-            <div class="tags"><span>бот</span><span>поддержка</span><span>SLA</span></div>
-            <span class="open-label">Открыть проект</span>
-          </div>
-        </article>
-      </section>
-
-      <section class="skills-section" id="skills">
-        <div class="section-title compact">
-          <p class="eyebrow">навыки</p>
-          <h2>Что я показываю без лишнего пафоса.</h2>
-        </div>
-        <div class="skill-lines">
-          <div><span>01</span><strong>Верстка и адаптив</strong><p>Собираю страницы, карточки, формы и кабинеты так, чтобы они нормально смотрелись на телефоне и компьютере.</p></div>
-          <div><span>02</span><strong>JavaScript-логика</strong><p>Делаю фильтры, калькуляторы, переключатели, списки, статусы, добавление элементов и простую работу с данными.</p></div>
-          <div><span>03</span><strong>Telegram-боты</strong><p>Продумываю сценарии диалога, быстрые кнопки, заявки, уведомления и интерфейсы вокруг бота.</p></div>
-          <div><span>04</span><strong>Деплой</strong><p>Публикую проект на GitHub Pages и VPS, проверяю ссылки, мобильный вид и базовые ошибки после загрузки.</p></div>
-        </div>
-      </section>
-
-      <section class="profile-band" id="about">
-        <div>
-          <p class="eyebrow">обо мне</p>
-          <h2>Я не рисую “красивую картинку” отдельно от задачи.</h2>
-        </div>
-        <div>
-          <p>Мне интересны проекты, где интерфейс помогает человеку быстро сделать действие: оформить заказ, написать в бот, посмотреть статус, выбрать сервер, посчитать норму или разобраться с заявкой.</p>
-          <p>Я еще развиваюсь, но уже стараюсь делать работу аккуратно: сначала сценарий, потом структура, визуал, клики, адаптив и публикация. Поэтому в портфолио оставлены проекты, которые можно открыть и проверить.</p>
-        </div>
-      </section>
-
-      <section class="contact-strip" id="contact">
-        <div>
-          <p class="eyebrow">контакты</p>
-          <h2>Написать мне</h2>
-          <p>Самый быстрый способ - Telegram. Кнопка рядом копирует публичную ссылку на портфолио.</p>
-        </div>
-        <div class="contact-actions">
-          <a class="button primary" href="https://t.me/Swatik11" target="_blank" rel="noreferrer">Telegram @Swatik11</a>
-          <button class="button ghost" id="copyLink" type="button">Скопировать ссылку</button>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <strong>Swatik11 / Андрей</strong>
-      <span>FluxVpn, КБЖУ, Exclusive Partners и Telegram-боты</span>
-    </footer>
-
-    <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="./script.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Андрей — дизайн и разработка сайтов</title>
+  <meta name="description" content="Лендинги с характером, онлайн-запись и заявки в Telegram. Избранные проекты Андрея: VECTOR и FORMA.">
+  <meta name="theme-color" content="#111315">
+  <meta property="og:title" content="Андрей — сайты с характером">
+  <meta property="og:description" content="Дизайн, разработка и автоматизация. Посмотрите VECTOR и FORMA в работе.">
+  <meta property="og:image" content="https://laladr1108-creator.github.io/Nemoswatik/assets/vector-desktop.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">Перейти к работам</a>
+  <header class="site-header shell">
+    <a class="identity" href="#top" aria-label="Андрей — в начало"><span class="identity-mark">S11</span><span>Андрей<span class="identity-role">Веб-разработчик</span></span></a>
+    <nav aria-label="Навигация"><a href="#work">Работы</a><a href="#services">Боты и сервисы</a><a class="header-contact" href="https://t.me/Swatik11" target="_blank" rel="noopener noreferrer">Обсудить проект<svg aria-hidden="true"><use href="#arrow"/></svg></a></nav>
+  </header>
+  <main id="top">
+    <section class="intro shell" aria-labelledby="intro-title">
+      <h1 id="intro-title">От первого взгляда<br>до первой заявки.</h1>
+      <div class="intro-bottom"><p>Проектирую и разрабатываю сайты,<br class="desktop-break"> которые хочется рассмотреть.</p><p>Лендинги, онлайн-запись<br>и уведомления в Telegram.</p><a class="jump-link" href="#work">Смотреть работы<svg aria-hidden="true"><use href="#down"/></svg></a></div>
+    </section>
+    <section id="work" class="work" aria-label="Избранные проекты">
+      <article class="project project-vector shell" aria-labelledby="vector-title">
+        <div class="project-heading"><div><h2 id="vector-title">VECTOR</h2><p>Характер бренда — в каждом движении.</p></div><a class="project-open" href="https://vector-club-orbit.flowylyric64.chatgpt.site/" target="_blank" rel="noopener noreferrer">Открыть сайт<svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+        <a class="project-cover vector-cover" href="https://vector-club-orbit.flowylyric64.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-label="Открыть лендинг VECTOR"><picture><source media="(max-width:650px)" srcset="assets/vector-mobile.jpg"><img src="assets/vector-desktop.png" alt="Лендинг VECTOR: крупная белая типографика и знак клуба на чёрном фоне" width="1440" height="900" fetchpriority="high"></picture><span class="cover-action" aria-hidden="true"><svg><use href="#arrow"/></svg></span></a>
+        <div class="project-details"><p>Лендинг закрытого клуба. Крупная типографика, анимированный знак и последовательное раскрытие программы ведут посетителя к обращению.</p><div class="project-links"><span>Дизайн, вёрстка, анимация</span><a href="cases/vector.html">Разобрать кейс<svg aria-hidden="true"><use href="#arrow"/></svg></a></div></div>
+      </article>
+      <article class="project project-forma" aria-labelledby="forma-title"><div class="shell">
+        <div class="project-heading"><div><h2 id="forma-title">FORMA</h2><p>Сайт, на котором забота начинается с записи.</p></div><a class="project-open" href="https://demo.vexora.press/p/test" target="_blank" rel="noopener noreferrer">Попробовать сайт<svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+        <a class="project-cover forma-cover" href="https://demo.vexora.press/p/test" target="_blank" rel="noopener noreferrer" aria-label="Открыть демонстрацию FORMA"><picture><source media="(max-width:650px)" srcset="assets/forma-mobile.jpg"><img src="assets/forma-desktop.jpg" alt="FORMA: фотографический сайт детейлинга с услугами и онлайн-записью" width="1280" height="720" loading="lazy"></picture><span class="cover-action" aria-hidden="true"><svg><use href="#arrow"/></svg></span></a>
+        <div class="project-details"><p>От фотографии автомобиля до выбора услуги и времени. Заявки собираются в кабинете; уведомления можно подключить к Telegram студии.</p><div class="project-links"><span>Сайт, запись, кабинет заявок</span><a href="cases/forma.html">Разобрать кейс<svg aria-hidden="true"><use href="#arrow"/></svg></a></div></div>
+        <p class="demo-note">Демонстрация шаблона. Фотографии иллюстративные; <a href="sources.html">авторы и лицензии</a>.</p>
+      </div></article>
+    </section>
+    <section id="services" class="services shell" aria-labelledby="services-title">
+      <div class="services-intro"><h2 id="services-title">За интерфейсом —<br>работающий сервис.</h2><p>Отдельные проекты автоматизации: Telegram-боты и серверная инфраструктура.</p></div>
+      <div class="service-list">
+        <a href="cases/content-bot.html"><span class="service-name">VECTOR Content Bot<span>Подборки референсов, избранное и доставка медиа в Telegram.</span></span><span class="service-type">Telegram · Python</span><svg aria-hidden="true"><use href="#arrow"/></svg></a>
+        <a href="cases/proxy.html"><span class="service-name">VEXORA Proxy<span>Подписки, продления и состояние доступа в одном боте.</span></span><span class="service-type">Telegram · SQLite</span><svg aria-hidden="true"><use href="#arrow"/></svg></a>
+        <a href="cases/vpn.html"><span class="service-name">VPN-инфраструктура<span>Настройка, диагностика и сопровождение сервиса.</span></span><span class="service-type">Linux · Remnawave</span><svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      </div><p class="services-note">Боты работают в закрытом доступе. В кейсах — возможности и границы реализации; действующие подписки и данные пользователей не публикуются.</p>
+    </section>
+    <section id="approach" class="approach shell" aria-labelledby="approach-title">
+      <div class="approach-intro"><h2 id="approach-title">Красиво снаружи.<br>Продумано внутри.</h2><p>Оформление помогает заинтересовать. Понятный сценарий помогает сделать следующий шаг.</p></div>
+      <div class="capabilities">
+        <div><h3>Выразительный дизайн</h3><p>Композиция, типографика и фотографии под характер вашего бизнеса. Удобный просмотр на телефоне и компьютере.</p></div>
+        <div><h3>Путь к заявке</h3><p>Услуги, цены и запись находятся там, где их ожидают. Форма собирает нужные контакты и объясняет, что будет дальше.</p></div>
+        <div><h3>Telegram и кабинет</h3><p>Новая заявка — с услугой, временем и контактами клиента. В кабинете можно посмотреть обращение и изменить его статус.</p></div>
+      </div>
+    </section>
+    <section id="contact" class="contact shell" aria-labelledby="contact-title"><div class="contact-top"><h2 id="contact-title">Обсудим<br>ваш сайт.</h2><div><p>Расскажите о бизнесе и задаче.<br>Обсудим структуру, оформление<br>и то, как сайт должен работать.</p><a class="contact-button" href="https://t.me/Swatik11" target="_blank" rel="noopener noreferrer">Написать в Telegram<svg aria-hidden="true"><use href="#arrow"/></svg></a><a class="email-link" href="mailto:info@vexora.press">info@vexora.press</a></div></div></section>
+  </main>
+  <footer class="site-footer shell"><span>Андрей · Swatik11</span><span>Дизайн и веб-разработка</span><a href="https://github.com/laladr1108-creator/Nemoswatik">GitHub<svg aria-hidden="true"><use href="#arrow"/></svg></a></footer>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol><symbol id="down" viewBox="0 0 24 24"><path d="M12 4v16m-7-7 7 7 7-7"/></symbol></svg>
+</body>
 </html>
