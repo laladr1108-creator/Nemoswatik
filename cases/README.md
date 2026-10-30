@@ -1,5 +1,9 @@
-# Проекты Андрея
+# Избранные проекты
 
-[Все работы и контакты](../README.md)
+[Открыть витрину](https://laladr1108-creator.github.io/Nemoswatik/)
 
-Подробности о задачах, технологиях, реализованных возможностях и участии в каждом проекте.
+- [VECTOR](vector.html) — лендинг клуба
+- [FORMA](forma.html) — сайт и запись
+- [VECTOR Content Bot](content-bot.html) — подборки референсов
+- [VEXORA Proxy](proxy.html) — подписки в Telegram
+- [VPN-инфраструктура](vpn.html) — сопровождение сервиса
